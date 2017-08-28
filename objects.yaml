@@ -1,42 +1,42 @@
-Objects:
-- Name: Apple
-  Color:
+objects:
+- name: Apple
+  color:
   - Red
   - Green
-  Size: Around the same size as a baseball
-  Weight: Around the same weight as a baseball
-  Shape: Round
-  Texture: Smooth
-  Function: Eat it
-  Location: The refrigerator
-  Value: Less than a dollar
-- Name: Pear
-  Color: Green
-  Size: Around the same size as a baseball
-  Weight: Around the same weight as a baseball
-  Shape: Weird
-  Texture: Smooth
-  Function: Eat it
-  Location: The refrigerator
-  Value: Less than a dollar
-- Name: Puzzle Piece
-  Color: Many colors
-  Size: Smaller than a baseball
-  Weight: Lighter than a slice of bread
-  Shape: Weird
-  Texture: Smooth
-  Function: Put it together
-  Location: A box
-  Value: Less than a dollar
-- Name: Frisbee
-  Color:
+  size: Around the same size as a baseball
+  weight: Around the same weight as a baseball
+  shape: Round
+  texture: Smooth
+  function: Eat it
+  location: The refrigerator
+  value: Less than a dollar
+- name: Pear
+  color: Green
+  size: Around the same size as a baseball
+  weight: Around the same weight as a baseball
+  shape: Weird
+  texture: Smooth
+  function: Eat it
+  location: The refrigerator
+  value: Less than a dollar
+- name: Puzzle Piece
+  color: Many colors
+  size: Smaller than a baseball
+  weight: Lighter than a slice of bread
+  shape: Weird
+  texture: Smooth
+  function: Put it together
+  location: A box
+  value: Less than a dollar
+- name: Frisbee
+  color:
   - Blue
   - Red
   - Orange
-  Size: Bigger than a baseball but smaller than a pillow
-  Weight: Around the same weight as a baseball
-  Shape: Weird
-  Texture: Smooth
-  Function: Throw it
-  Location: A basket
-  Value: Around 10 dollars
+  size: Bigger than a baseball but smaller than a pillow
+  weight: Around the same weight as a baseball
+  shape: Weird
+  texture: Smooth
+  function: Throw it
+  location: A basket
+  value: Around 10 dollars
