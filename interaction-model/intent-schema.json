@@ -8,6 +8,15 @@
           "type": "AMAZON.Color"
         }
       ]
+    },
+    {
+      "intent": "AskSizeIntent",
+      "slots": [
+        {
+          "name": "size",
+          "type": "SIZES"
+        }
+      ]
     }
   ]
 }

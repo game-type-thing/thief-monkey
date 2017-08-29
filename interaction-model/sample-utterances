@@ -1,3 +1,8 @@
 AskColorIntent    what color is it
 AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
+
+AskSizeIntent    what size is it
+AskSizeIntent    is it {size}
+AskSizeIntent    how {size} is it
+AskSizeIntent    is it as {size} as

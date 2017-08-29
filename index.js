@@ -21,8 +21,14 @@ const launchHandlers = {
 const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
   "AskColorIntent": function () {
     this.emit(
-      ":tell",
+      ":ask",
       `The object is ${objects[this.attributes.objectKey].color}`
+    );
+  },
+  "AskSizeIntent": function () {
+    this.emit(
+      ":ask",
+      `The object is ${objects[this.attributes.objectKey].size}`
     );
   },
   "Unhandled": function () {
