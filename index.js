@@ -19,10 +19,10 @@ const launchHandlers = {
 };
 
 const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
-  "GetStolenItem": function () {
+  "AskColorIntent": function () {
     this.emit(
       ":tell",
-      `Thief Monkey stole ${objects[this.attributes.objectKey].name}`
+      `The object is ${objects[this.attributes.objectKey].color}`
     );
   },
   "Unhandled": function () {

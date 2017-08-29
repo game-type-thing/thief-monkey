@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "AskColorIntent",
+      "slots": [
+        {
+          "name": "color",
+          "type": "AMAZON.Color"
+        }
+      ]
+    }
+  ]
+}

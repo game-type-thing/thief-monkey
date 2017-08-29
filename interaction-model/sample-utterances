@@ -1,0 +1,3 @@
+AskColorIntent    what color is it
+AskColorIntent    is it {color}
+AskColorIntent    is it colored {color}
