@@ -1,8 +1,6 @@
 objects:
 - name: Apple
-  color:
-  - Red
-  - Green
+  color: Red
   size: Around the same size as a baseball
   weight: Around the same weight as a baseball
   shape: Round
@@ -29,10 +27,7 @@ objects:
   location: A box
   value: Less than a dollar
 - name: Frisbee
-  color:
-  - Blue
-  - Red
-  - Orange
+  color: Orange
   size: Bigger than a baseball but smaller than a pillow
   weight: Around the same weight as a baseball
   shape: Weird
