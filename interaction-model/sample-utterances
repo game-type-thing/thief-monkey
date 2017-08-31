@@ -6,3 +6,9 @@ AskSizeIntent    what size is it
 AskSizeIntent    is it {size}
 AskSizeIntent    how {size} is it
 AskSizeIntent    is it as {size} as
+
+AskWeightIntent    how much does it weigh
+AskWeightIntent    does it weigh much
+AskWeightIntent    does it weigh a lot
+AskWeightIntent    how {weight} is it
+AskWeightIntent    is it {weight}
