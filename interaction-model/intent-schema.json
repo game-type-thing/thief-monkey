@@ -10,6 +10,19 @@
       ]
     },
     {
+      "intent": "AskShapeIntent",
+      "slots": [
+        {
+          "name": "shape_adjective",
+          "type": "SHAPE_ADJECTIVES"
+        },
+        {
+          "name": "shape_noun",
+          "type": "SHAPE_NOUNS"
+        }
+      ]
+    },
+    {
       "intent": "AskSizeIntent",
       "slots": [
         {

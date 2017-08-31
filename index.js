@@ -25,6 +25,12 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
       `The object is ${objects[this.attributes.objectKey].color}`
     );
   },
+  "AskShapeIntent": function () {
+    this.emit(
+      ":ask",
+      `The object has a ${objects[this.attributes.objectKey].shape} shape`
+    );
+  },
   "AskSizeIntent": function () {
     this.emit(
       ":ask",

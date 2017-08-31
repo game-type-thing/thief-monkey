@@ -2,6 +2,12 @@ AskColorIntent    what color is it
 AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
 
+AskShapeIntent    what shape is it
+AskShapeIntent    is it a {shape_noun}
+AskShapeIntent    does it look like a {shape_noun}
+AskShapeIntent    is it {shape_adjective}
+AskShapeIntent    does it look {shape_adjective}
+
 AskSizeIntent    what size is it
 AskSizeIntent    is it {size}
 AskSizeIntent    how {size} is it
