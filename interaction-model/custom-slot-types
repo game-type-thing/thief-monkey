@@ -1,19 +1,19 @@
 SHAPE_ADJECTIVES
+rectangular
 round
 square
 triangular
-rectangular
 
 SHAPE_NOUNS
 circle
+rectangle
 square
 triangle
-rectangle
 
 SIZES
 big
-small
 large
+small
 tiny
 
 TEXTURES
