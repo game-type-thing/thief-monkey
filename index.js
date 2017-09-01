@@ -38,6 +38,13 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
       `Its name begins with the letter ${firstLetter}`
     );
   },
+  "AskLastLetterIntent": function () {
+    const lastLetter = objects[this.attributes.objectKey].name.slice(-1);
+    this.emit(
+      ":ask",
+      `Its name ends with the letter ${lastLetter}`
+    );
+  },
   "AskNumLettersIntent": function () {
     const numLetters = objects[this.attributes.objectKey].name.length;
     this.emit(

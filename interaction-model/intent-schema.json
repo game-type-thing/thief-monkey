@@ -26,6 +26,9 @@
       "intent": "AskFirstLetterIntent"
     },
     {
+      "intent": "AskLastLetterIntent"
+    },
+    {
       "intent": "AskNumLettersIntent",
       "slots": [
         {

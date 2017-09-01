@@ -30,6 +30,23 @@ AskFirstLetterIntent    how does its name begin
 AskFirstLetterIntent    how does it start
 AskFirstLetterIntent    how does its name start
 
+AskLastLetterIntent    what is the last letter
+AskLastLetterIntent    what is the last letter in its name
+AskLastLetterIntent    what is the final letter
+AskLastLetterIntent    what is the final letter in its name
+AskLastLetterIntent    what letter comes last
+AskLastLetterIntent    what letter comes last in its name
+AskLastLetterIntent    what does it end with
+AskLastLetterIntent    what does its name end with
+AskLastLetterIntent    what letter does it end with
+AskLastLetterIntent    what letter does its name end with
+AskLastLetterIntent    what does it end with
+AskLastLetterIntent    what does its name end with
+AskLastLetterIntent    what letter does it end with
+AskLastLetterIntent    what letter does its name end with
+AskLastLetterIntent    how does it end
+AskLastLetterIntent    how does its name end
+
 AskNumLettersIntent    how many letters are there
 AskNumLettersIntent    how many letters are there in its name
 AskNumLettersIntent    how many letters are in its name
