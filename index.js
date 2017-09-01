@@ -22,37 +22,37 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
   "AskCategoryIntent": function () {
     this.emit(
       ":ask",
-      `The object is a ${objects[this.attributes.objectKey].category}`
+      `It's a ${objects[this.attributes.objectKey].category}`
     );
   },
   "AskColorIntent": function () {
     this.emit(
       ":ask",
-      `The object is ${objects[this.attributes.objectKey].color}`
+      `It's ${objects[this.attributes.objectKey].color}`
     );
   },
   "AskShapeIntent": function () {
     this.emit(
       ":ask",
-      `The object has a ${objects[this.attributes.objectKey].shape} shape`
+      `It has a ${objects[this.attributes.objectKey].shape} shape`
     );
   },
   "AskSizeIntent": function () {
     this.emit(
       ":ask",
-      `The object looks ${objects[this.attributes.objectKey].size}`
+      `It's ${objects[this.attributes.objectKey].size}`
     );
   },
   "AskTextureIntent": function () {
     this.emit(
       ":ask",
-      `The object has a ${objects[this.attributes.objectKey].texture} texture`
+      `It has a ${objects[this.attributes.objectKey].texture} texture`
     );
   },
   "AskWeightIntent": function () {
     this.emit(
       ":ask",
-      `The object feels ${objects[this.attributes.objectKey].weight}`
+      `It's ${objects[this.attributes.objectKey].weight}`
     );
   },
   "Unhandled": function () {
