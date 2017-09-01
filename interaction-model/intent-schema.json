@@ -32,6 +32,15 @@
       ]
     },
     {
+      "intent": "AskTextureIntent",
+      "slots": [
+        {
+          "name": "texture",
+          "type": "TEXTURES"
+        }
+      ]
+    },
+    {
       "intent": "AskWeightIntent",
       "slots": [
         {

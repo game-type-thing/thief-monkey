@@ -15,6 +15,14 @@ AskSizeIntent    does it look {size}
 AskSizeIntent    how {size} is it
 AskSizeIntent    is it as {size} as
 
+AskTextureIntent    what texture is it
+AskTextureIntent    what texture does it have
+AskTextureIntent    what does it feel like
+AskTextureIntent    how {texture} is it
+AskTextureIntent    does it feel {texture}
+AskTextureIntent    is it {texture}
+AskTextureIntent    is it as {texture} as
+
 AskWeightIntent    how much does it weigh
 AskWeightIntent    does it weigh much
 AskWeightIntent    does it weigh a lot

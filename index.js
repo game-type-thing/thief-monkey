@@ -37,6 +37,12 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
       `The object looks ${objects[this.attributes.objectKey].size}`
     );
   },
+  "AskTextureIntent": function () {
+    this.emit(
+      ":ask",
+      `The object has a ${objects[this.attributes.objectKey].texture} texture`
+    );
+  },
   "AskWeightIntent": function () {
     this.emit(
       ":ask",
