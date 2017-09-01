@@ -102,6 +102,15 @@
           "type": "WEIGHT"
         }
       ]
+    },
+    {
+      "intent": "GuessObjectIntent",
+      "slots": [
+        {
+          "name": "object",
+          "type": "OBJECT"
+        }
+      ]
     }
   ]
 }

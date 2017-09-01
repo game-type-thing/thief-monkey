@@ -2,6 +2,12 @@ CATEGORY
 food
 toy
 
+OBJECT
+apple
+pear
+puzzle piece
+frisbee
+
 PURPOSE_SYNONYM
 category
 function

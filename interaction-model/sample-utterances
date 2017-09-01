@@ -114,3 +114,19 @@ AskWeightIntent    how {weight} is it
 AskWeightIntent    does it feel {weight}
 AskWeightIntent    is it {weight}
 AskWeightIntent    is it as {weight} as
+
+GuessObjectIntent    {object}
+GuessObjectIntent    a {object}
+GuessObjectIntent    an {object}
+GuessObjectIntent    is it a {object}
+GuessObjectIntent    is it an {object}
+GuessObjectIntent    it's a {object}
+GuessObjectIntent    it's an {object}
+GuessObjectIntent    is the object a {object}
+GuessObjectIntent    is the object an {object}
+GuessObjectIntent    the object is a {object}
+GuessObjectIntent    the object is an {object}
+GuessObjectIntent    did he steal a {object}
+GuessObjectIntent    did he steal an {object}
+GuessObjectIntent    he stole a {object}
+GuessObjectIntent    he stole an {object}
