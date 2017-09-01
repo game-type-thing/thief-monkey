@@ -89,19 +89,20 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
     );
   },
   "GuessObjectIntent": function () {
-    const name = objects[this.attributes.objectKey].name;
-    if (this.event.request.intent.slots.object.value === name) {
+    const correctName = objects[this.attributes.objectKey].name;
+    const guessedName = this.event.request.intent.slots.object.value;
+    if (guessedName === correctName) {
       this.emit(
         ":tell",
-        `You guessed it! Thief Monkey stole your ${name}. He's sorry. He'll go`
-          + ` put it back where he got it from.`
+        `You guessed it! Thief Monkey stole your ${correctName}. He's sorry.`
+          + ` He'll go put it back where he got it from.`
       );
       return;
     }
 
     this.emit(
       ":ask",
-      `No. Thief Monkey didn't steal your ${name}. Keep guessing.`
+      `No. Thief Monkey didn't steal your ${guessedName}. Keep guessing.`
     );
   },
   "Unhandled": function () {
