@@ -13,6 +13,23 @@ AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
 AskColorIntent    does it look {color}
 
+AskFirstLetterIntent    what is the first letter
+AskFirstLetterIntent    what is the first letter in its name
+AskFirstLetterIntent    what letter comes first
+AskFirstLetterIntent    what letter comes first in its name
+AskFirstLetterIntent    what does it start with
+AskFirstLetterIntent    what does its name start with
+AskFirstLetterIntent    what letter does it start with
+AskFirstLetterIntent    what letter does its name start with
+AskFirstLetterIntent    what does it begin with
+AskFirstLetterIntent    what does its name begin with
+AskFirstLetterIntent    what letter does it begin with
+AskFirstLetterIntent    what letter does its name begin with
+AskFirstLetterIntent    how does it begin
+AskFirstLetterIntent    how does its name begin
+AskFirstLetterIntent    how does it start
+AskFirstLetterIntent    how does its name start
+
 AskNumLettersIntent    how many letters are there
 AskNumLettersIntent    how many letters are there in its name
 AskNumLettersIntent    how many letters are in its name
