@@ -46,7 +46,7 @@ The player can perform any of these actions:
 - How does it feel?
 - Is it (smooth, bumpy, etc.)?
 
-## Function
+## Category
 
 - What is it used for?
 - How is it used?

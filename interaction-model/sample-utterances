@@ -1,3 +1,13 @@
+AskCategoryIntent    what is it
+AskCategoryIntent    what is it for
+AskCategoryIntent    what is it used for
+AskCategoryIntent    what type is it
+AskCategoryIntent    what type of object is it
+AskCategoryIntent    what is its {purpose_synonym}
+AskCategoryIntent    is it a {category}
+AskCategoryIntent    how do you use it
+AskCategoryIntent    how is it used
+
 AskColorIntent    what color is it
 AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}

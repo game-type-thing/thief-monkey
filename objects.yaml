@@ -5,7 +5,7 @@ objects:
   weight: around the same weight as a baseball
   shape: round
   texture: smooth
-  function: eat it
+  category: food
   location: the refrigerator
   value: less than a dollar
 - name: pear
@@ -14,7 +14,7 @@ objects:
   weight: around the same weight as a baseball
   shape: weird
   texture: smooth
-  function: eat it
+  category: food
   location: the refrigerator
   value: less than a dollar
 - name: puzzle Piece
@@ -23,7 +23,7 @@ objects:
   weight: lighter than a slice of bread
   shape: weird
   texture: smooth
-  function: put it together
+  category: toy
   location: a box
   value: less than a dollar
 - name: frisbee
@@ -32,6 +32,6 @@ objects:
   weight: around the same weight as a baseball
   shape: weird
   texture: smooth
-  function: throw it
+  category: toy
   location: a basket
   value: around 10 dollars

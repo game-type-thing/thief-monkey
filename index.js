@@ -19,6 +19,12 @@ const launchHandlers = {
 };
 
 const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
+  "AskCategoryIntent": function () {
+    this.emit(
+      ":ask",
+      `The object is a ${objects[this.attributes.objectKey].category}`
+    );
+  },
   "AskColorIntent": function () {
     this.emit(
       ":ask",
