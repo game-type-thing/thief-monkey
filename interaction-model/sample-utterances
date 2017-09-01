@@ -1,6 +1,7 @@
 AskColorIntent    what color is it
 AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
+AskColorIntent    does it look {color}
 
 AskShapeIntent    what shape is it
 AskShapeIntent    is it a {shape_noun}
@@ -10,6 +11,7 @@ AskShapeIntent    does it look {shape_adjective}
 
 AskSizeIntent    what size is it
 AskSizeIntent    is it {size}
+AskSizeIntent    does it look {size}
 AskSizeIntent    how {size} is it
 AskSizeIntent    is it as {size} as
 
@@ -17,4 +19,6 @@ AskWeightIntent    how much does it weigh
 AskWeightIntent    does it weigh much
 AskWeightIntent    does it weigh a lot
 AskWeightIntent    how {weight} is it
+AskWeightIntent    does it feel {weight}
 AskWeightIntent    is it {weight}
+AskWeightIntent    is it as {weight} as

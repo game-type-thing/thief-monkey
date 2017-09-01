@@ -34,13 +34,13 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
   "AskSizeIntent": function () {
     this.emit(
       ":ask",
-      `The object is ${objects[this.attributes.objectKey].size}`
+      `The object looks ${objects[this.attributes.objectKey].size}`
     );
   },
   "AskWeightIntent": function () {
     this.emit(
       ":ask",
-      `The object is ${objects[this.attributes.objectKey].weight}`
+      `The object feels ${objects[this.attributes.objectKey].weight}`
     );
   },
   "Unhandled": function () {
