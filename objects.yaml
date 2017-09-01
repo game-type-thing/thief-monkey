@@ -17,7 +17,7 @@ objects:
   category: food
   room: kitchen
   value: less than a dollar
-- name: puzzle Piece
+- name: puzzle piece
   color: many colors
   size: smaller than a baseball
   weight: lighter than a slice of bread
