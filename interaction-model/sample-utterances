@@ -13,6 +13,19 @@ AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
 AskColorIntent    does it look {color}
 
+AskNumLettersIntent    how many letters are there
+AskNumLettersIntent    how many letters are there in its name
+AskNumLettersIntent    how many letters are in its name
+AskNumLettersIntent    how many letters does it have
+AskNumLettersIntent    how many letters does it have in its name
+AskNumLettersIntent    how long is its name
+AskNumLettersIntent    are there {length} letters
+AskNumLettersIntent    are there {length} letters in its name
+AskNumLettersIntent    does it have {length} letters
+AskNumLettersIntent    does it have {length} letters in its name
+AskNumLettersIntent    is its name {length} letters long
+AskNumLettersIntent    does its name have {length} letters
+
 AskRoomIntent    what room was it in
 AskRoomIntent    what room was it stolen from
 AskRoomIntent    what room was it taken from

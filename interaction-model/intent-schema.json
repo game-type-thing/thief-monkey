@@ -23,6 +23,15 @@
       ]
     },
     {
+      "intent": "AskNumLettersIntent",
+      "slots": [
+        {
+          "name": "length",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
       "intent": "AskRoomIntent",
       "slots": [
         {
