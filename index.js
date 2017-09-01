@@ -2,6 +2,7 @@ const Alexa = require("alexa-sdk");
 const fs = require("fs");
 const yaml = require("js-yaml");
 
+const REPROMPT_MSG = "Try asking a question about the object.";
 const STATES = {
   "GAME": 0,
 };
@@ -13,7 +14,8 @@ const launchHandlers = {
     this.emit(
       ":ask",
       "Oh no! Thief Monkey stole something. He'll only give it back if you"
-      + " guess what it is."
+      + " guess what it is.",
+      REPROMPT_MSG
     );
   },
 };
@@ -22,70 +24,81 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
   "AskCategoryIntent": function () {
     this.emit(
       ":ask",
-      `It's a ${objects[this.attributes.objectKey].category}`
+      `It's a ${objects[this.attributes.objectKey].category}`,
+      REPROMPT_MSG
     );
   },
   "AskColorIntent": function () {
     this.emit(
       ":ask",
-      `It's ${objects[this.attributes.objectKey].color}`
+      `It's ${objects[this.attributes.objectKey].color}`,
+      REPROMPT_MSG
     );
   },
   "AskFirstLetterIntent": function () {
     const firstLetter = objects[this.attributes.objectKey].name[0];
     this.emit(
       ":ask",
-      `Its name begins with the letter ${firstLetter}`
+      `Its name begins with the letter ${firstLetter}`,
+      REPROMPT_MSG
     );
   },
   "AskLastLetterIntent": function () {
     const lastLetter = objects[this.attributes.objectKey].name.slice(-1);
     this.emit(
       ":ask",
-      `Its name ends with the letter ${lastLetter}`
+      `Its name ends with the letter ${lastLetter}`,
+      REPROMPT_MSG
     );
   },
   "AskNumLettersIntent": function () {
     const numLetters = objects[this.attributes.objectKey].name.length;
     this.emit(
       ":ask",
-      `There are ${numLetters} letters in its name`
+      `There are ${numLetters} letters in its name`,
+      REPROMPT_MSG
     );
   },
   "AskRoomIntent": function () {
     this.emit(
       ":ask",
-      `It was in the ${objects[this.attributes.objectKey].room}`
+      `It was in the ${objects[this.attributes.objectKey].room}`,
+      REPROMPT_MSG
     );
   },
   "AskShapeIntent": function () {
     this.emit(
       ":ask",
-      `It has a ${objects[this.attributes.objectKey].shape} shape`
+      `It has a ${objects[this.attributes.objectKey].shape} shape`,
+      REPROMPT_MSG
     );
   },
   "AskSizeIntent": function () {
     this.emit(
       ":ask",
-      `It's ${objects[this.attributes.objectKey].size}`
+      `It's ${objects[this.attributes.objectKey].size}`,
+      REPROMPT_MSG
     );
   },
   "AskTextureIntent": function () {
     this.emit(
       ":ask",
-      `It has a ${objects[this.attributes.objectKey].texture} texture`
+      `It has a ${objects[this.attributes.objectKey].texture} texture`,
+      REPROMPT_MSG
     );
   },
   "AskValueIntent": function () {
     this.emit(
       ":ask",
-      `It's worth ${objects[this.attributes.objectKey].value}`
+      `It's worth ${objects[this.attributes.objectKey].value}`,
+      REPROMPT_MSG
     );
   },
   "AskWeightIntent": function () {
     this.emit(
       ":ask",
-      `It's ${objects[this.attributes.objectKey].weight}`
+      `It's ${objects[this.attributes.objectKey].weight}`,
+      REPROMPT_MSG
     );
   },
   "GuessObjectIntent": function () {
@@ -102,11 +115,16 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
 
     this.emit(
       ":ask",
-      `No. Thief Monkey didn't steal your ${guessedName}. Keep guessing.`
+      `No. Thief Monkey didn't steal your ${guessedName}. Keep guessing.`,
+      REPROMPT_MSG
     );
   },
   "Unhandled": function () {
-    this.emit(":tell", "I'm sorry. I have no idea what you just said.");
+    this.emit(
+      ":ask",
+      "I'm sorry. I have no idea what you just said.",
+      REPROMPT_MSG
+    );
   },
 });
 
