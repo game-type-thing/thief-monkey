@@ -6,7 +6,7 @@ objects:
   shape: round
   texture: smooth
   category: food
-  location: the refrigerator
+  room: kitchen
   value: less than a dollar
 - name: pear
   color: green
@@ -15,7 +15,7 @@ objects:
   shape: weird
   texture: smooth
   category: food
-  location: the refrigerator
+  room: kitchen
   value: less than a dollar
 - name: puzzle Piece
   color: many colors
@@ -24,7 +24,7 @@ objects:
   shape: weird
   texture: smooth
   category: toy
-  location: a box
+  room: closet
   value: less than a dollar
 - name: frisbee
   color: orange
@@ -33,5 +33,5 @@ objects:
   shape: weird
   texture: smooth
   category: toy
-  location: a basket
+  room: closet
   value: around 10 dollars

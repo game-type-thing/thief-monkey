@@ -31,6 +31,12 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
       `It's ${objects[this.attributes.objectKey].color}`
     );
   },
+  "AskRoomIntent": function () {
+    this.emit(
+      ":ask",
+      `It was in the ${objects[this.attributes.objectKey].room}`
+    );
+  },
   "AskShapeIntent": function () {
     this.emit(
       ":ask",

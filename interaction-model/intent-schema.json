@@ -23,6 +23,15 @@
       ]
     },
     {
+      "intent": "AskRoomIntent",
+      "slots": [
+        {
+          "name": "room",
+          "type": "AMAZON.Room"
+        }
+      ]
+    },
+    {
       "intent": "AskShapeIntent",
       "slots": [
         {

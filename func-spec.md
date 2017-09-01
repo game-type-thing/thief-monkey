@@ -55,7 +55,7 @@ The player can perform any of these actions:
 - How does it work?
 - How do you use it?
 
-## Location
+## Room
 
 - Where was it stolen from?
 - Where was it?

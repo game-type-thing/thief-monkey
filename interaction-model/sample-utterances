@@ -13,6 +13,21 @@ AskColorIntent    is it {color}
 AskColorIntent    is it colored {color}
 AskColorIntent    does it look {color}
 
+AskRoomIntent    what room was it in
+AskRoomIntent    what room was it stolen from
+AskRoomIntent    what room was it taken from
+AskRoomIntent    where was it
+AskRoomIntent    where did it come from
+AskRoomIntent    where was it stolen from
+AskRoomIntent    where was it taken from
+AskRoomIntent    where did he find it
+AskRoomIntent    where did Thief Monkey find it
+AskRoomIntent    was it in the {room}
+AskRoomIntent    did it come from the {room}
+AskRoomIntent    did he steal it from the {room}
+AskRoomIntent    did he take it from the {room}
+AskRoomIntent    did he find it in the {room}
+
 AskShapeIntent    what shape is it
 AskShapeIntent    is it a {shape_noun}
 AskShapeIntent    does it look like a {shape_noun}
