@@ -62,6 +62,23 @@
         }
       ]
     },
+    {                                                                           
+      "intent": "AskValueIntent",                                               
+      "slots": [ 
+        {
+          "name": "price",
+          "type": "AMAZON.NUMBER"
+        },        
+        {                                                                       
+          "name": "value_adjective",                                            
+          "type": "VALUE_ADJECTIVE"                                             
+        },                                                                      
+        {                                                                       
+          "name": "value_noun",                                                 
+          "type": "VALUE_NOUN"                                                  
+        }                                                                       
+      ]                                                                         
+    },
     {
       "intent": "AskWeightIntent",
       "slots": [

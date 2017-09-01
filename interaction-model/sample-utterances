@@ -48,6 +48,18 @@ AskTextureIntent    does it feel {texture}
 AskTextureIntent    is it {texture}
 AskTextureIntent    is it as {texture} as
 
+AskValueIntent    how much is it worth
+AskValueIntent    is it worth a lot
+AskValueIntent    is it worth {price} dollars
+AskValueIntent    how much does it cost
+AskValueIntent    how much did it cost
+AskValueIntent    does it cost a lot
+AskValueIntent    does it cost {price} dollars
+AskValueIntent    did it cost {price} dollars
+AskValueIntent    how {value_adjective} is it
+AskValueIntent    is it {value_adjective}
+AskValueIntent    what is its {value_noun}
+
 AskWeightIntent    how much does it weigh
 AskWeightIntent    does it weigh much
 AskWeightIntent    does it weigh a lot
