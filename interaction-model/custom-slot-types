@@ -1,39 +1,39 @@
-CATEGORIES
+CATEGORY
 food
 toy
 
-PURPOSE_SYNONYMS
+PURPOSE_SYNONYM
 category
 function
 purpose
 type
 use
 
-SHAPE_ADJECTIVES
+SHAPE_ADJECTIVE
 rectangular
 round
 square
 triangular
 
-SHAPE_NOUNS
+SHAPE_NOUN
 circle
 rectangle
 square
 triangle
 
-SIZES
+SIZE
 big
 large
 small
 tiny
 
-TEXTURES
+TEXTURE
 bumpy
 hard
 rough
 smooth
 soft
 
-WEIGHTS
+WEIGHT
 heavy
 light
