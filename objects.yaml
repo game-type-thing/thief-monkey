@@ -8,6 +8,15 @@ objects:
   category: food
   room: kitchen
   value: less than a dollar
+- name: frisbee
+  color: orange
+  size: bigger than a baseball but smaller than a pillow
+  weight: around the same weight as a baseball
+  shape: weird
+  texture: smooth
+  category: toy
+  room: closet
+  value: around 10 dollars
 - name: pear
   color: green
   size: around the same size as a baseball
@@ -26,12 +35,3 @@ objects:
   category: toy
   room: closet
   value: less than a dollar
-- name: frisbee
-  color: orange
-  size: bigger than a baseball but smaller than a pillow
-  weight: around the same weight as a baseball
-  shape: weird
-  texture: smooth
-  category: toy
-  room: closet
-  value: around 10 dollars
