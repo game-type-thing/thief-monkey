@@ -8,6 +8,42 @@ objects:
   category: food
   room: kitchen
   value: less than a dollar
+- name: blanket
+  color: blue
+  size: bigger than a pillow
+  weight: around the same weight as a basketball
+  shape: round
+  texture: soft
+  category: bedding
+  room: bedroom
+  value: around 25 dollars
+- name: bouncy ball
+  color: purple
+  size: around the same size as a golf ball
+  weight: around the same weight as a slice of bread
+  shape: round
+  texture: smooth
+  category: toy
+  room: closet
+  value: less than a dollar
+- name: chair
+  color: brown
+  size: bigger than a pillow
+  weight: heavier than a basketball
+  shape: weird
+  texture: smooth
+  category: furniture
+  room: dining room
+  value: around 100 dollars
+- name: fork
+  color: silver
+  size: bigger than a golf ball but smaller than a basketball
+  weight: around the same weight as a slice of bread
+  shape: weird
+  texture: hard
+  category: utensil
+  room: kitchen
+  value: around 2 dollars
 - name: frisbee
   color: orange
   size: bigger than a baseball but smaller than a pillow
@@ -35,3 +71,21 @@ objects:
   category: toy
   room: closet
   value: less than a dollar
+- name: spoon
+  color: silver
+  size: bigger than a golf ball but smaller than a basketball
+  weight: around the same weight as a slice of bread
+  shape: weird
+  texture: hard
+  category: utensil
+  room: kitchen
+  value: around 2 dollars
+- name: table
+  color: brown
+  size: bigger than a pillow
+  weight: heavier than a basketball
+  shape: weird
+  texture: smooth
+  category: furniture
+  room: dining room
+  value: around 500 dollars
