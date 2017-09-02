@@ -21,6 +21,21 @@ const launchHandlers = {
 };
 
 const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
+  "AMAZON.HelpIntent": function () {
+    this.emit(
+      ":ask",
+      "You can ask a question about the object. Or you can guess what the"
+        + " object is.",
+      REPROMPT_MSG
+    );
+  },
+  "AMAZON.StopIntent": function () {
+    this.emit(
+      ":tell",
+      "Thief Monkey says goodbye. Oh, and he's selling your stuff on eBay.",
+      REPROMPT_MSG
+    );
+  },
   "AskCategoryIntent": function () {
     this.emit(
       ":ask",
