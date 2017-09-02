@@ -32,7 +32,8 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
   "AMAZON.StopIntent": function () {
     this.emit(
       ":tell",
-      "Thief Monkey says goodbye. Oh, and he's selling your stuff on eBay.",
+      `Thief Monkey says goodbye. Oh, and he's selling your`
+        + ` ${objects[this.attributes.objectKey].name} on eBay.`,
       REPROMPT_MSG
     );
   },
