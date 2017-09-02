@@ -120,10 +120,17 @@ const gameHandlers = Alexa.CreateStateHandler(STATES.GAME, {
     const correctName = objects[this.attributes.objectKey].name;
     const guessedName = this.event.request.intent.slots.object.value;
     if (guessedName === correctName) {
+      const oldObjectKey = this.attributes.objectKey;
+
+      do {
+        this.attributes.objectKey = getRandomNum(0, objects.length - 1);
+      } while (this.attributes.objectKey === oldObjectKey);
+
       this.emit(
-        ":tell",
-        `You guessed it! Thief Monkey stole your ${correctName}. He's sorry.`
-          + ` He'll go put it back where he got it from.`
+        ":ask",
+        `You guessed it! Thief Monkey stole your ${correctName}. The good news`
+          + ` is he put it back. The bad news is he stole something else`
+          + ` instead. Can you guess what he took this time?`
       );
       return;
     }
