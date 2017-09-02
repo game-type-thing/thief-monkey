@@ -1,8 +1,8 @@
 objects:
 - name: apple
   color: red
-  size: around the same size as a baseball
-  weight: around the same weight as a baseball
+  size: bigger than a golf ball but smaller than a basketball
+  weight: heavier than a tennis ball but lighter than a soccer ball
   shape: round
   texture: smooth
   category: food
@@ -11,7 +11,7 @@ objects:
 - name: blanket
   color: blue
   size: bigger than a pillow
-  weight: around the same weight as a basketball
+  weight: heavier than a basketball
   shape: round
   texture: soft
   category: bedding
@@ -19,8 +19,8 @@ objects:
   value: around 25 dollars
 - name: bouncy ball
   color: purple
-  size: around the same size as a golf ball
-  weight: around the same weight as a slice of bread
+  size: smaller than a baseball
+  weight: lighter than a tennis ball
   shape: round
   texture: smooth
   category: toy
@@ -38,7 +38,7 @@ objects:
 - name: fork
   color: silver
   size: bigger than a golf ball but smaller than a basketball
-  weight: around the same weight as a slice of bread
+  weight: lighter than a tennis ball
   shape: weird
   texture: hard
   category: utensil
@@ -47,7 +47,7 @@ objects:
 - name: frisbee
   color: orange
   size: bigger than a baseball but smaller than a pillow
-  weight: around the same weight as a baseball
+  weight: heavier than a tennis ball but lighter than a soccer ball
   shape: weird
   texture: smooth
   category: toy
@@ -55,8 +55,8 @@ objects:
   value: around 10 dollars
 - name: pear
   color: green
-  size: around the same size as a baseball
-  weight: around the same weight as a baseball
+  size: bigger than a golf ball but smaller than a basketball
+  weight: heavier than a tennis ball but lighter than a soccer ball
   shape: weird
   texture: smooth
   category: food
@@ -64,7 +64,7 @@ objects:
   value: less than a dollar
 - name: puzzle piece
   color: many colors
-  size: smaller than a baseball
+  size: smaller than a golf ball
   weight: lighter than a slice of bread
   shape: weird
   texture: smooth
@@ -74,7 +74,7 @@ objects:
 - name: spoon
   color: silver
   size: bigger than a golf ball but smaller than a basketball
-  weight: around the same weight as a slice of bread
+  weight: lighter than a tennis ball
   shape: weird
   texture: hard
   category: utensil
